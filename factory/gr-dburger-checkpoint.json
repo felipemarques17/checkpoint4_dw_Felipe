@@ -1,0 +1,9 @@
+{
+	"name": "gr-dburger-checkpoint",
+	"location": "brazilsouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4f55f268-d0b7-49a0-a871-c706df7f2b12",
+		"tenantId": "11dbbfe2-89b8-4549-be10-cec364e59551"
+	}
+}
