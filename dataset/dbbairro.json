@@ -1,0 +1,16 @@
+{
+	"name": "dbbairro",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "dburger",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "OracleTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "RM555191",
+			"table": "DB_BAIRRO"
+		}
+	}
+}

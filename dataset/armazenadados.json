@@ -1,0 +1,22 @@
+{
+	"name": "armazenadados",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "checkpoint4dw",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "origemdadoscp"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
